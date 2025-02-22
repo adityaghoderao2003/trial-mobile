@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="theme-color" content="#F26B38">
+    <title>Happy Birthday</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #card {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .wrap {
+            padding: 20px;
+        }
+        .cake_and_velas {
+            max-width: 100%;
+            height: auto;
+        }
+        .polaroid {
+            max-width: 100%;
+        }
+        .img {
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+        @media (max-width: 600px) {
+            .wrap {
+                padding: 10px;
+            }
+            .img {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div id="card-inside">
+            <div class="wrap">
+                <center><p class="animated infinite wobble"><b><u>Happy Birthday Ekta !</b></u></p></center>
+                <p>I was gonna wish you <b>Happy bday Ekta...blah...blah.....</b> like others, but I thought being a <b>Web Developer</b> something unique is required. Fed up of boring messages, so made this card.</p>
+                <p>Happy Birthday! 🎉 May this year bring you closer to your dreams, fill your heart with joy, and open doors to endless opportunities 🎂. Also, contact me if you want to learn more...</p>
+                <p class="signed"><u>Hope you liked it. Made with a lot of coding</u> <img src="coding pc.avif" alt="Coder Logo" class="coding"></p>
+            </div>
+        </div>
+        <div id="card-front">
+            <div class="wrap">
+                <h1 class="animated infinite swing">Happy Birthday Ekta</h1>
+                <div class="cake_and_velas">
+                    <div class="velas">
+                        <div class="fuego"></div>
+                        <div class="fuego"></div>
+                        <div class="fuego"></div>
+                        <div class="fuego"></div>
+                        <div class="fuego"></div>
+                    </div>
+                    <svg id="cake" version="1.1" x="0px" y="0px" width="290px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 500" xml:space="preserve">
+                        <!-- SVG content -->
+                    </svg>
+                </div>
+            </div>
+            <button id="open" data-balloon="Click to Open Card!" data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&gt;</button>
+            <button id="close" data-balloon="! bɿɒɔ ɘƨolɔ oɈ ʞɔilƆ" data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&lt;</button>
+            <div class="card-front_inside">
+                <div class="polaroid">
+                    <div class="img" style="background-image: url('bday\ card\ pic.avif')"></div>
+                </div>
+                <div class="shadow"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
